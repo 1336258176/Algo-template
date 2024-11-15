@@ -1,9 +1,20 @@
+/**
+ * @file graph-store.cpp
+ * @author LyBin (lybin1336258176@outlook.com)
+ * @brief 图的存储
+ * @version 0.2
+ * @date 2024-11-15
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
+
 #include <cstdio>
 #include <cstring>
 #include <iostream>
 #include <memory>
 
-// 链式前向星
+/* -------------------------------------------- 链式前向星 ------------------------------------------- */
 namespace s1 {
 const int MaxN = 1e4 + 10;
 
