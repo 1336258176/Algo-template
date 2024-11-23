@@ -9,8 +9,7 @@
  *
  */
 
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 
 /* -------------------------------------------- 归并排序 -------------------------------------------- */
 template <typename T>

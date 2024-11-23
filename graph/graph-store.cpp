@@ -9,10 +9,7 @@
  * 
  */
 
-#include <cstdio>
-#include <cstring>
-#include <iostream>
-#include <memory>
+#include <bits/stdc++.h>
 
 /* -------------------------------------------- 链式前向星 ------------------------------------------- */
 namespace s1 {

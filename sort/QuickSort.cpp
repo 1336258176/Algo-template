@@ -9,8 +9,7 @@
  * 
  */
 
-#include <iostream>
-#include <random>
+#include <bits/stdc++.h>
 
 constexpr int MaxN = 1e4 + 10;
 int d[MaxN]{};

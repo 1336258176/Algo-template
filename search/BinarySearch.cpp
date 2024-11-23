@@ -9,9 +9,7 @@
  * 
  */
 
-#include <iomanip>
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 
 constexpr int MaxN = 1e4 + 10;
 int d[MaxN]{};
