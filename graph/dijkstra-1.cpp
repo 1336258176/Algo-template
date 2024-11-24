@@ -1,3 +1,14 @@
+/**
+ * @file dijkstra-1.cpp
+ * @author LyBin (lybin1336258176@outlook.com)
+ * @brief 暴力Dijkstra
+ * @version 1.0
+ * @date 2024-11-24
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
+
 #include <bits/stdc++.h>
 
 constexpr int MaxN = 1e5;
@@ -20,7 +31,7 @@ int dijkstra(int s, int t) {
   }
 
   dis[s] = 0;
-  for (int i = 1; i <= M; i++) {
+  for (int i = 1; i <= M; i++) {  // 由于有M个顶点，所以找到从源点到每个顶点的最短路需要M次遍历
     int u = 0;
     int mind = INF;
 
